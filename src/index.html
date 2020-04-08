@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JamStack Email Registration Form</title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        form{
+            margin: 2rem auto;
+            max-width: 350px;
+        }
+        label,input {
+            display: block;
+            width: 100%;
+        }
+        label {
+            margin-top:  0.5rem;
+        }
+        input {
+            font-size: 1rem;
+            padding: 0.25rem;
+        }
+        button {
+            margin-top: 0.25rem;
+            padding: 0.5rem;
+            background-color:navy;
+            font-weight: bold;
+            color: white;
+            font-size: 1.5rem;
+            border:none;
+        }
+    </style>
+</head>
+<body>
+    <h1>JamStack Email Registration</h1>
+    <form action="">
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname"> 
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">   
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
