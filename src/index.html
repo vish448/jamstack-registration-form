@@ -39,14 +39,23 @@
 </head>
 <body>
     <h1>JamStack Email Registration</h1>
-    <form action="">
+    <form action="" data-netlify="true" netlify-honeypot="bot-field" name="Email Registration">
         <label for="firstname">First Name</label>
-        <input type="text" name="firstname" id="firstname"> 
+        <input type="text" name="firstname" id="firstname" />
+  
         <label for="lastname">Last Name</label>
-        <input type="text" name="lastname" id="lastname">
+        <input type="text" name="lastname" id="lastname" />
+  
         <label for="email">Email</label>
-        <input type="email" name="email" id="email">   
+        <input type="email" name="email" id="email" />
+  
         <button type="submit">Register</button>
-    </form>
+  
+        <p class="hidden">
+          <label
+            >Don’t fill this out if you're human: <input name="bot-field"
+          /></label>
+        </p>
+      </form>
 </body>
 </html>
